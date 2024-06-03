@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+  background-image:linear-gradient(to top,#2825ec,#004d80);
+  color: white
+}
+.box {
+  border: 10px solid rgb(0, 45, 128);
+  padding: 25px;
+  background-image:linear-gradient(to top right,#2825ec,#004d80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social-links {
+  padding: 25px;
+  background-image:linear-gradient(to top left,#2825ec,#11006d);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(202, 202, 202);
+  text-decoration: underline;
+}
+#hiddenbutton {
+  color: rgba(0, 0, 0, 0.010);
+  background-color: rgba(0, 0, 0, 0.0325);
+  border-style: none;
+}
+#sl-icn {
+  width:2em;
+  margin-right:.5em;
+  margin-top:1em;
+  margin-bottom:auto;
+  justify-content:center
+}
+#fun-stuff {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-image:linear-gradient(to top left,#2825ec,#11006d);
+  border-radius: 5em;
+  border-color: #11006d;
+}
+#bsod-button {
+  color: rgb(78, 78, 78)
+}
+#bsod {
+  width: 10em;
+  height: 10em;
+}
+#bsod-container {
+  background-image:linear-gradient(to top,#3bb1ff,#006eff);
+}
+#name {
+  border-radius: 10em;
+  border-color: black;
+}
+#description {
+  border-radius: 10em;
+  border-color: black;
+}
+#fun-stuff:hover {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-image:linear-gradient(to top left,#797979,#000000);
+  border-radius: 5em;
+  border-color: #0a0044;
+}

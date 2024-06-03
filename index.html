@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>nSwish Ball!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="box">
+        <div class="inner-box">
+            <img id="hapi" class="logo" src="icon.png">
+            <div class="buttons">
+                <button onclick="foundme()" id="hiddenbutton">Found me? click me for a suprise!</button>
+            </div>
+            <div class="social-links">
+                <a class="sl-lnk" href="youtube/redirect.html">
+                    <img id="sl-icn" src="yt.png">
+                    YouTube
+                </a>
+                <a class="sl-lnk" href="github/redirect.html">
+                    <img id="sl-icn" src="github.png">
+                    GitHub
+                </a>
+                <a class="sl-lnk" href="discord/redirect.html">
+                    <img id="sl-icn" src="discord.png">
+                    Discord Server
+                </a>
+                <p id="hidden-text" style="color: white; font-size: 0.65em;"></p>
+                <p id="suprise-loading" style="color: white; font-size: 0.45em;"></p>
+            </div>
+        <h1>So..... what's the deal?</h1>
+        <p>This website is made for sharing the fun stuff.</p>
+        <button onclick="funstuff()" id="fun-stuff">The fun stuff.</button>
+        <noscript>Please turn on JavaScript!</noscript>
+        </div>
+    </div>
+    <script>
+        function foundme() {
+  document.getElementById("hidden-text").innerHTML = "You've found the button! :D";
+  window.location.href = 'suprise/suprise.html';
+        }
+        function funstuff() {
+            window.location.href = 'fun.html';
+        }
+    </script>
+</body>
+</html>
