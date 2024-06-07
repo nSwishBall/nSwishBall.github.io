@@ -8,7 +8,7 @@
             "type": "firefox",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\thato\\OneDrive\\Dokumenty\\GitHub\\nSwishBall.github.io\\button\\index.html"
+            "file": "c:\\Users\\thato\\OneDrive\\Dokumenty\\GitHub\\nSwishBall.github.io\\fun.html"
         }
     ]
 }

@@ -37,7 +37,8 @@ a:hover {
   margin-right:.5em;
   margin-top:1em;
   margin-bottom:auto;
-  justify-content:center
+  justify-content:center;
+  color:rgba(255, 255, 255, 0.500)
 }
 #fun-stuff {
   font-family: "Montserrat", sans-serif;
@@ -46,22 +47,12 @@ a:hover {
   border-radius: 5em;
   border-color: #11006d;
 }
-#bsod-button {
-  color: rgb(78, 78, 78)
-}
-#bsod {
-  width: 10em;
-  height: 10em;
-}
-#bsod-container {
-  background-image:linear-gradient(to top,#3bb1ff,#006eff);
-}
 #name {
   border-radius: 10em;
   border-color: black;
 }
 #description {
-  border-radius: 10em;
+  border-radius: 5em;
   border-color: black;
 }
 #fun-stuff:hover {
@@ -70,4 +61,15 @@ a:hover {
   background-image:linear-gradient(to top left,#797979,#000000);
   border-radius: 5em;
   border-color: #0a0044;
+}
+#fun-things {
+  background-image:linear-gradient(to top left,#2825ec,#11006d);
+  color: white
+}
+#seperator {
+  color: rgba(255, 255, 255, 0.500);
+}
+#boing {
+  height: 1em;
+  border-radius: 0.25em;
 }
